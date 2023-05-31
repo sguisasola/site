@@ -5,6 +5,11 @@ body {
   text-align: center;
 }
 
+img {
+    width: 60px;
+    height: auto;
+}
+
 a {
     /* remove the underline from links */
     text-decoration: none;
@@ -16,9 +21,17 @@ a {
     margin: 32px;
 }
 
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .menu-item {
     font-size: 14px;
     margin: 10px;
+    align-items: center;
+    flex-direction: column;
 }
 
 .title {
