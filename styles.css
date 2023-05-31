@@ -4,3 +4,25 @@ body {
   font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
   text-align: center;
 }
+
+a {
+    /* remove the underline from links */
+    text-decoration: none;
+    color: black;
+  }
+
+.container {
+    display: flex;
+    margin: 32px;
+}
+
+.menu-item {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.title {
+    margin-left: auto;
+    font-size: 28px;
+    font-weight: 400;
+}
