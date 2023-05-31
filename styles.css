@@ -5,8 +5,8 @@ body {
   text-align: center;
 }
 
-img {
-    width: 60px;
+.image {
+    width: 40px;
     height: auto;
 }
 
@@ -16,26 +16,52 @@ a {
     color: black;
   }
 
-.container {
+.header {
     display: flex;
     margin: 32px;
+    align-items: baseline;
+    justify-content: center;
 }
 
 .menu{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .menu-item {
     font-size: 14px;
     margin: 10px;
-    align-items: center;
-    flex-direction: column;
+    position: relative;
 }
 
+.text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    background: white;
+    align-self:center;
+    transition: opacity .1s, visibility .1s;
+}
+
+.menu-item:hover .text {
+    visibility: visible;
+    opacity: 1;
+  }
+
 .title {
-    margin-left: auto;
     font-size: 28px;
     font-weight: 400;
+    justify-self:left;
+}
+
+.main {
+    font-size: 12px;
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
 }
