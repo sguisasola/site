@@ -83,7 +83,15 @@ a {
 
 .name {
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 5px;   
+}
+
+.name:hover span {
+    display:none;
+}
+
+.name:hover:before {
+    content: "Home";
 }
 
 .bio-pic {
