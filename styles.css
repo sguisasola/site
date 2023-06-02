@@ -159,12 +159,11 @@ a {
 }
 
 .about-detailed {
-    width: 350px;
+    width: 300px;
     height: auto;
-    margin-right: 50px;
-    align-self: center;
+    display: flex;
     flex-shrink: 1;
-    justify-self: center;
+    position: fixed;
 }
 
 .cv-pic {
@@ -182,26 +181,26 @@ a {
     font-weight: 900;  
 }
 
-#nature {
+.nature {
     color: rgb(209, 97, 41);
 }
 
-#math {
+.math {
     color: #B8001F;
 }
 
-#music {
+.music {
     color: #0259B6;
 }
 
-#community {
+.community {
     color: #478716;
 }
 
-#creativity {
+.creativity {
     color: #a200a2;
 }
 
-#education {
+.education {
     color: #199381;
 }
