@@ -76,6 +76,22 @@ a {
     transform: translateX(-50%);
 }
 
+.outcome {
+    text-shadow: 0px 1px 2px rgb(197, 231, 197);
+    font-weight: 900;
+}
+
+.place {
+    text-shadow: 0px 1px 2px rgb(250, 212, 197);
+}
+
+.dissertation {
+    text-shadow: 0px 1px 2px rgb(204, 229, 245);
+}
+.award {
+    text-shadow: 0px 1px 2px rgb(249, 249, 130);
+}
+
 .main {
     width: 55%;
     text-align: justify;
