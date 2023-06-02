@@ -100,26 +100,20 @@ a {
     gap: 100px;
 }
 
-.traditional-cv {
-    display: flex;
-    flex-direction: column;
+.trad-cv-outer {
+    margin-top: 10px;
+    display:flex;
     justify-content: center;
-    align-items: center;
-    width: 50%;
+    gap:25px;
 }
 
-.cv-item {
-    font-weight: 900;
+.trad-cv-section {
+    width: 150px;
 }
 
-.traditional-cv > p {
-    padding: 0px;
-    margin: 0px;
-}
-
-.traditional-cv > ul {
-    padding: 0px;
-    margin: 0px;
+.trad-cv-details > ul {
+    list-style-type:none;
+    width: 400px;
 }
 
 .main > img {
