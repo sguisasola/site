@@ -26,7 +26,14 @@ a {
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
+    background-color: white;
 }
+
+iframe {
+    height:calc(100vh - 36px);
+    width:calc(100vw - 4px);
+    box-sizing: border-box;
+  }
 
 .menu{
     display: flex;
@@ -129,24 +136,32 @@ a {
 
 .cv-menu {
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    gap: 20px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
 }
 
 .trad-cv-outer {
     margin-top: 10px;
     display:flex;
     justify-content: center;
-    gap:25px;
+    flex-shrink: 1;
 }
 
 .trad-cv-section {
-    width: 150px;
+    width: 100px;
+}
+
+.trad-cv-details {
+    flex-shrink: 1;
+    width: 400px;
+    min-width: 280px;
+    font-size: 15px;
 }
 
 .trad-cv-details > ul {
     list-style-type:none;
-    width: 400px;
 }
 
 .name {
