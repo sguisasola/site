@@ -97,8 +97,26 @@ a {
     text-align: justify;
     margin: auto;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
+    justify-content: center;
+
     margin-top: 175px;
+    flex-wrap: wrap;
+}
+
+.main .main-img {
+    width: 150px;
+}
+
+.bio-pic {
+    width: 150px;
+    height: auto;
+}
+
+.blurb {
+    flex: 1 1 220px;
+    min-width: 220px;
+    margin-left: 60px;
 }
 
 .cv {
@@ -132,11 +150,6 @@ a {
     width: 400px;
 }
 
-.main > img {
-    float: left;
-    margin: 5px;
-}
-
 .name {
     font-size: 16px;
     margin-bottom: 5px;
@@ -150,20 +163,11 @@ a {
     content: "Home";
 }
 
-.bio-pic {
-    width: 150px;
-    height: auto;
-    margin-right: 50px;
-    align-self: center;
-    flex-shrink: 1;
-}
-
 .about-detailed {
     width: 300px;
     height: auto;
     display: flex;
     flex-shrink: 1;
-    position: fixed;
 }
 
 .cv-pic {
