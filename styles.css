@@ -98,9 +98,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
     margin-top: 175px;
     flex-wrap: wrap;
+    gap: 0px 60px;
 }
 
 .main .main-img {
@@ -110,12 +110,12 @@ a {
 .bio-pic {
     width: 150px;
     height: auto;
+    margin: 0px;
 }
 
 .blurb {
     flex: 1 1 220px;
     min-width: 220px;
-    margin-left: 60px;
 }
 
 .cv {
